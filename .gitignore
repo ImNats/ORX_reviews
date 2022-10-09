@@ -5,6 +5,7 @@ postgreSQL_server_for_reviews_db/
 #Ignore files
 todo/
 research/
+db_connection.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
