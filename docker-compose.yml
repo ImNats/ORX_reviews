@@ -1,0 +1,15 @@
+version: '3.5'
+
+services:
+  postgres:
+    container_name: postgreSQL_for_reviews_db
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: reviews_db
+      POSTGRES_USER: dev_user
+      POSTGRES_PASSWORD: 1212
+      PGDATA: /data/postgres
+    volumes:
+       - ./postgreSQL_server_for_reviews_db:/data/postgres
+    ports:
+      - "5432:5432"
