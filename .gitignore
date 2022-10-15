@@ -1,6 +1,11 @@
+#Ignore files Postgre Server in Docker
+postgreSQL_server_for_reviews_db/
+
+
 #Ignore files
 todo/
 research/
+db_connection.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -132,6 +137,7 @@ dmypy.json
 #Ignore files built by Code editor programms
 .vscode/
 .idea/*.code-workspace
+*.code-workspace
 settings.py
 
 # Pyre type checker
