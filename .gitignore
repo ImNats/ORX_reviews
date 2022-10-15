@@ -1,3 +1,7 @@
+#Ignore files
+todo/
+research/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -125,5 +129,13 @@ venv.bak/
 .dmypy.json
 dmypy.json
 
+#Ignore files built by Code editor programms
+.vscode/
+.idea/*.code-workspace
+settings.py
+
 # Pyre type checker
 .pyre/
+
+#Ignore thumbnails created by Windows
+Thumbs.db
